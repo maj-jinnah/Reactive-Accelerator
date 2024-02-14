@@ -1,5 +1,3 @@
-import TravelPlan from "./components/TravelPlan";
-
 function App() {
     return (
         <>

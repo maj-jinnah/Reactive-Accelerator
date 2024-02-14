@@ -7,17 +7,11 @@ export default function TravelPlan() {
     const planets = plan.childPlaces;
     return (
         <frameElement className= "m-96">
-            {/* <h2>Places to visit</h2>
+            <h2>Places to visit</h2>
             <ol>
                 {planets.map((place) => (
                     <PlaceTree key={place.id} place={place} />
                 ))}
-            </ol> */}
-
-            <ol>
-                <li className="mx-28">AAA</li>
-                <li>BBB</li>
-                <li>CCC</li>
             </ol>
         </frameElement>
     );
